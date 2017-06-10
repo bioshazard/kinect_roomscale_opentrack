@@ -23,7 +23,7 @@ Pulls X,Y,Z position from Kinect and submits as UDP for OpenTrack. Based on [Ske
 
 ![](https://github.com/bioshazard/kinect_roomscale_opentrack/blob/master/doc/opentrack_settings/opentrack_main.PNG?raw=true)
 
-## Options
+### Options
 
 Be sure to set a button for centering OpenTrack after you calibrate your 3d Perimeter with the kinect app.
 
