@@ -1,6 +1,6 @@
 # kinect_roomscale_opentrack
 
-Pulls X,Y,Z position from Kinect and submits as UDP for OpenTrack. Based on [SkeletonBasics-WPF](https://msdn.microsoft.com/en-us/library/hh855381.aspx). Just hijacked the bone render function, dumped the head point X,Y,Z,Orientation to OpenTrack over UDP.
+Pulls X,Y,Z position from Kinect and submits as UDP for OpenTrack. Based on [SkeletonBasics-WPF](https://msdn.microsoft.com/en-us/library/hh855381.aspx). Just hijacked the [bone render function](https://github.com/bioshazard/kinect_roomscale_opentrack/blob/master/MainWindow.xaml.cs#L283), dumped the head point X,Y,Z,Orientation to OpenTrack over UDP.
 
 ## Usage
 
