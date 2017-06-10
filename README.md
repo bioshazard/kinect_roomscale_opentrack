@@ -4,7 +4,7 @@ Pulls X,Y,Z position from Kinect and submits as UDP for OpenTrack. Based on [Ske
 
 ## Usage
 
-- Connect Xbox 360 Kinect to PC
+- Connect Xbox 360 Kinect to PC (not tested on newer Xbox One Kinect)
 - Install Kinect drivers
 - Download and start [OpenTrack](https://github.com/opentrack/opentrack). My example configuration is detailed below.
 - Run `bin/Debug/SkeletonBasics-WPF.exe` or recompile from source with Visual Studio 2015
