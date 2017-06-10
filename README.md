@@ -23,6 +23,12 @@ Pulls X,Y,Z position from Kinect and submits as UDP for OpenTrack. Based on [Ske
 
 ![](https://github.com/bioshazard/kinect_roomscale_opentrack/blob/master/doc/opentrack_settings/opentrack_main.PNG?raw=true)
 
+## Options
+
+Be sure to set a button for centering OpenTrack after you calibrate your 3d Perimeter with the kinect app.
+
+![](https://github.com/bioshazard/kinect_roomscale_opentrack/blob/master/doc/opentrack_settings/opentrack_options_shortcuts.PNG?raw=true)
+
 ### OpenTrack Profile:
 
 You can just import this and it will apply all the position and orientation mappings
