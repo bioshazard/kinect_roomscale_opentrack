@@ -6,9 +6,16 @@ Pulls X,Y,Z position from Kinect and submits as UDP for OpenTrack. Based on [Ske
 
 - Connect Xbox 360 Kinect to PC
 - Install Kinect drivers
-- Start OpenTrack (TODO: link to my configuration in wiki)
+- Download and start [OpenTrack](https://github.com/opentrack/opentrack). My example configuration is detailed below.
 - Run `bin/Debug/SkeletonBasics-WPF.exe` or recompile from source with Visual Studio 2015
 - Walk your area perimeter, squat, and jump to average the room center
+- Install [VRidge](https://riftcat.com/vridge) to your mobile device
+- Install [RiftCat](https://riftcat.com/) to your PC
+- Configure RiftCat settings to use Freetrack for positional tracking.
+
+## RiftCat Tracking Options
+
+![](https://github.com/bioshazard/kinect_roomscale_opentrack/blob/master/doc/riftcat_tracking.PNG?raw=true)
 
 ## OpenTrack Settings
 
@@ -17,6 +24,8 @@ Pulls X,Y,Z position from Kinect and submits as UDP for OpenTrack. Based on [Ske
 ![](https://github.com/bioshazard/kinect_roomscale_opentrack/blob/master/doc/opentrack_settings/opentrack_main.PNG?raw=true)
 
 ### OpenTrack Profile:
+
+You can just import this and it will apply all the position and orientation mappings
 
 https://github.com/bioshazard/kinect_roomscale_opentrack/blob/master/doc/opentrack_settings/opentrack_profile.ini
 
